@@ -8,8 +8,19 @@
 </head>
 <body>
 
-    <form>
-        
+    <form name="contact" method="POST" data-netlify="true">
+        <label for="name">First name</label>
+        <input type="text" name="name" id="name" placeholder="Panni" />
+        <label for="age">Age</label>
+        <input
+            type="number"
+            name="age"
+            id="age"
+            min="0"
+            max="100"
+            placeholder="45"
+        />
+        <button type="submit">Submit</button>
     </form>
     
 </body>
